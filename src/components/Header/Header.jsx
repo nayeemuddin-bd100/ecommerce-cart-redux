@@ -3,7 +3,6 @@ import { useSelector } from 'react-redux';
 
 function Header() {
     const items = useSelector((state) => state.productReducer.items);
-    console.log(items);
 
     return (
         <nav>

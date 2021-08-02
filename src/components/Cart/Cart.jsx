@@ -1,13 +1,12 @@
-import React, { useContext } from 'react';
-import { GlobalContext } from '../../context/GlobalState';
+import React from 'react';
+import { useSelector } from 'react-redux';
 import Footer from '../Footer/Footer';
 
 // Set lazy loading
 const CartItem = React.lazy(() => import('./CartItem'));
 
 function Cart() {
-    const { items } = useContext(GlobalContext);
-
+    const items = useSelector((state) => state.productReducer.items);
     return (
         <div className="main-section">
             <div className="container">

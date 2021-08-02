@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: #2680c0;
+  width: 100vw;
+}
+
+.container {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.navigation {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+
+.navigation__logo {
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.navigation__side {
+  position: relative;
+  color: white;
+}
+
+.navigation__side--amount {
+  margin-top: -14px;
+  margin-left: 24px;
+  background: #85c6f4;
+  padding: 14px;
+  position: absolute;
+  right: -19px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigation__side--icon {
+  width: 2rem;
+  fill: white;
+}
+
+.main-section {
+  position: absolute;
+  background-color: #f1f5f8;
+  width: 100vw;
+  padding-bottom: 5rem;
+  /* Cart section */
+  /* Boot section */
+}
+
+.main-section__title {
+  color: #102a42;
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 40px auto;
+}
+
+.main-section__emptyProduct {
+  text-align: center;
+  color: #2680c0;
+  font-weight: 400;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.main-section .cart-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+  /* Left section */
+  /* Right section */
+}
+
+.main-section .cart-section__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-section .cart-section__main__image img {
+  margin-right: 60px;
+  height: 80px;
+  width: 80px;
+}
+
+.main-section .cart-section__main__details--title {
+  color: #102a42;
+  margin-top: 10px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  text-transform: capitalize;
+  -webkit-text-decoration: #102a42;
+          text-decoration: #102a42;
+}
+
+.main-section .cart-section__main__details--price {
+  margin-top: -12px;
+  color: #617d98;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.main-section .cart-section__main__details--removeBtn {
+  margin-top: -5px;
+  color: #0e314a;
+  font-size: 13.6px;
+  letter-spacing: 3px;
+  font-weight: 400;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main-section .cart-section__main__details--removeBtn:hover {
+  color: #7cb4da;
+}
+
+.main-section .cart-section__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-section .cart-section__icon--increment {
+  height: 24px;
+  width: 24px;
+  fill: #2680c0;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main-section .cart-section__icon--increment:hover {
+  fill: #97bbd3;
+}
+
+.main-section .cart-section__icon--decrement {
+  font-size: 1rem;
+  height: 24px;
+  width: 24px;
+  fill: #2680c0;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main-section .cart-section__icon--decrement:hover {
+  fill: #80a9c5;
+}
+
+.main-section .main-section__bottom--hr hr {
+  margin-top: 30px;
+  border-color: transparent;
+  border-width: 0.25px;
+  background: #617d98;
+}
+
+.main-section .main-section__bottom--total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -15px;
+  padding: 0 10px;
+  color: #102a42;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.main-section .main-section__bottom--total h2 {
+  font-weight: 500;
+}
+
+.main-section .clearAllBtn {
+  text-align: center;
+}
+
+.main-section .clearAllBtn button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #841212;
+  color: #841212;
+  font-size: 14px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 8px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main-section .clearAllBtn button:hover {
+  background-color: #e77373;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 70vw;
+  }
+  /*navigation*/
+  .navigation__logo {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+  .navigation__side--amount {
+    width: 5px;
+    height: 5px;
+    padding: 8px;
+    font-size: 13px;
+    right: -13px;
+  }
+  .navigation__side--icon {
+    width: 1rem;
+  }
+  /* main-section */
+  .main-section__title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 90vw;
+  }
+}
+/*# sourceMappingURL=App.css.map */
